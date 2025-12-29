@@ -1,13 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color:rgb(63, 63, 160)
 }
 
 .form{
+    display: flex;
+    flex-direction: row;
     width: 60%;
-    margin-top: 8%;
+    margin-top: 5%;
     height: 4vh;
+    margin-bottom: 2%;
 }
 
 #input{
@@ -23,4 +31,107 @@ body{
 #search-button{
     width: 15%;
   
+}
+
+.cards-container{
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    min-width: 60%;
+ 
+}
+
+.card-div{
+    
+    /* width: 30rem;
+    height: 20rem; */
+    width: 35%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;    
+    /* height: 50%;
+    width: 40%; */
+    border-radius: 6px;
+    background-color: #222533;
+    color: white;
+    margin: 1%;
+}
+
+.team-div{
+    display: flex;
+    flex-direction: row;
+    
+    width: 100%;
+    height: 40%;
+    justify-content: space-around; 
+    align-items: center;
+    
+
+}
+
+.team-div{
+    margin-bottom: 3%;
+}
+
+.big-containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.odds-container{
+    display: flex;
+    flex-direction: column;
+    background-color:#7132C1;
+    margin-bottom: 3%;
+    height: 3.5em;
+    width: 4.5em;
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items:center;
+    border-radius: 6px;
+    
+}
+
+.odds-container p{
+    margin:7%;
+}
+
+h4{
+    margin: 2%;
+    width: 10%;
+}
+
+h5{
+    margin: 0%;
+    width: 30%;
+}
+
+.moneyLine-container2{
+    min-height: 100%;
+}
+
+.top-info-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.top-info-div a{
+    color: white;
+    text-decoration: none;
+    padding-right: 3%;
+}
+
+.top-info-div p{
+    padding-left: 3%
 }
